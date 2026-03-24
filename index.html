@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sendlab - Free One-Day Gym Pilot</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="logo">Sendlab</div>
+      <nav class="nav">
+        <a href="#how-it-works">How it works</a>
+        <a href="#pilot">Pilot details</a>
+        <a href="#faq">FAQ</a>
+        <a href="#yes-form">Say yes</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">Free one-day experiment for climbing gyms</p>
+          <h1>Would you let Sendlab run a 2-hour engagement challenge at your gym?</h1>
+          <p>
+            We run everything ourselves using a simple whiteboard format. Your staff does not need to
+            operate it. Our goal is to test one assumption only: whether gyms would allow this idea.
+          </p>
+          <a href="#yes-form" class="primary-button">Yes - You can test Sendlab at our gym</a>
+          <a href="mailto:pt56@rice.edu?subject=Sendlab%20pilot%20question" class="secondary-link"
+            >I have questions</a
+          >
+        </div>
+      </section>
+
+      <section id="how-it-works" class="section">
+        <h2>How the challenge works</h2>
+        <p class="section-intro">Simple format, fast setup, transparent scoring.</p>
+        <div class="pill-grid">
+          <div class="pill">
+            <h3>1. Climbers opt in</h3>
+            <p>Participants can join the challenge and attempt one fixed climb.</p>
+          </div>
+          <div class="pill">
+            <h3>2. Score is completion + time</h3>
+            <p>
+              If a climber completes the challenge, their score is the time to completion. If they do
+              not complete it, they are not ranked above finishers.
+            </p>
+          </div>
+          <div class="pill">
+            <h3>3. Top performers receive payout</h3>
+            <p>The prize pool is distributed among the top 30 percent of completed performances.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="pilot" class="section">
+        <h2>What we ask from your gym</h2>
+        <p class="section-intro">
+          This pilot is fully free. We are not asking your staff to run a program.
+        </p>
+        <div class="pill-grid">
+          <div class="pill">
+            <h3>One 2-hour test window</h3>
+            <p>Allow us to run a single on-site pilot session.</p>
+          </div>
+          <div class="pill">
+            <h3>Space for a whiteboard station</h3>
+            <p>We use a manual board to display rankings and keep the process visible.</p>
+          </div>
+          <div class="pill">
+            <h3>Permission to run the experiment</h3>
+            <p>
+              We handle operations and participant flow so your team can stay focused on normal gym
+              duties.
+            </p>
+          </div>
+        </div>
+        <p class="section-note">
+          Founder note: I am Philip Tudor, a Rice University student testing this concept for an
+          entrepreneurship class at Rice.
+        </p>
+      </section>
+
+      <section id="yes-form" class="section">
+        <h2>Give us a simple yes</h2>
+        <p class="section-intro">
+          If you would allow this free test at your gym, enter your email and submit.
+        </p>
+        <form
+          class="lead-form"
+          action="mailto:pt56@rice.edu"
+          method="post"
+          enctype="text/plain"
+        >
+          <div class="form-row">
+            <label for="gym-email">Gym email address</label>
+            <input
+              id="gym-email"
+              name="gym_email"
+              type="email"
+              placeholder="owner@gym.com"
+              required
+            />
+          </div>
+          <input type="hidden" name="response" value="Yes, we would allow a Sendlab test." />
+          <input type="hidden" name="pilot_duration" value="2 hours" />
+          <button type="submit" class="primary-button">Yes - You can test Sendlab at our gym</button>
+          <p class="form-hint">Contact: Philip Tudor - pt56@rice.edu</p>
+        </form>
+      </section>
+
+      <section id="faq" class="section">
+        <h2>FAQ</h2>
+        <div class="faq-list">
+          <article class="faq-item">
+            <h3>Is this free for the gym?</h3>
+            <p>Yes. This one-day pilot costs the gym nothing.</p>
+          </article>
+          <article class="faq-item">
+            <h3>Does gym staff need to run it?</h3>
+            <p>No. Sendlab runs the pilot and operations during the 2-hour window.</p>
+          </article>
+          <article class="faq-item">
+            <h3>How is scoring decided?</h3>
+            <p>
+              Rankings are based on completion first, then the time it took to complete the fixed climb.
+            </p>
+          </article>
+          <article class="faq-item">
+            <h3>How are payouts handled?</h3>
+            <p>The prize pool is distributed to the top 30 percent of performers.</p>
+          </article>
+          <article class="faq-item">
+            <h3>Is there an entry fee?</h3>
+            <p>Yes. Climbers pay a $1 entry fee to participate in the challenge.</p>
+          </article>
+          <article class="faq-item">
+            <h3>What if someone cheats?</h3>
+            <p>Any score we determine to be dishonest is disqualified and not acknowledged.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Sendlab pilot contact: Philip Tudor - pt56@rice.edu</p>
+    </footer>
+  </body>
+</html>
+
